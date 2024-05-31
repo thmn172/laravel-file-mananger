@@ -1,0 +1,56 @@
+/* thông báo và video */
+.container {
+margin: 20px auto;
+padding:30px auto;
+}
+.card{
+    border: 0 ;
+}
+.card-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 390;
+    color: #143980;
+}
+.hr{
+    height: 2px;
+    width: 300px;
+    margin: 10px auto;
+    background-color: #143980;
+}
+.news-a a{
+    color: #143980;
+    font-weight: 600;
+}
+.news-a{
+    margin-bottom: 20px;
+}
+.time{
+    color: #333333;
+}
+.post-place{
+    color: #333333; font-weight: 350
+}
+.comic{
+    margin: auto;
+    background-color: #143980;
+    width: 521.81px;
+    height: 115px;
+}
+.comic a{
+    color: aliceblue;
+}
+.comic a:hover{
+    color: rgb(255, 0, 0);
+}
+.comic img{
+    margin: 22px 35px ;
+}
+.comic p{
+    font-size: 25px ;
+    margin-bottom: 10px;
+}
+.comic h3{
+    font-size: 25px ;
+}
+/* end thông báo và video */

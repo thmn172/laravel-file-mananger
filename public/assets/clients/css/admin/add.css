@@ -1,0 +1,100 @@
+/* Trang Thêm */
+    .back{
+        color: #143980;
+        transition: font-size 0.2s;
+    }
+    .back:hover{
+        color: #143980;
+        font-size: larger;
+    }
+    .nav-item a{
+        color: #f2f2f2 ;
+        transition: font-size 0.7s;
+    }
+    .nav-item a:hover{
+        font-size: 20px ;
+        color: rgb(175, 234, 234);
+    }
+    .btn-outline-secondary{
+        background-color: #143980; color: #f2f2f2;
+    }
+    .btn-outline-secondary:hover{
+        background-color: #375691; color: #ffffff;
+    }
+    .btn-outline-secondary:focus{
+        background-color: #375691; color: #ffffff;
+    }
+    .dropdown-menu[data-bs-popper]{
+        left:-95px ;
+        width: 250px;
+    }
+    .dropdown{
+     right: 10px;
+    }
+    .us{
+     margin: 10px;
+    }
+    .us img{
+     border-radius: 50%;
+     border: 2px solid #143980;
+    }
+    .navbar-brand img{
+        height: 40px;
+        width: 50px;
+        margin-left:25px ;
+    }
+    .navbar-brand strong{
+        padding-bottom: 20px;
+        font-style: italic;
+        font-size: 25px;
+        color: #143980;
+        font-weight: 600;
+        text-shadow: 1px 3px 3px #114b91;
+    }
+    .title h3{
+        color: #143980 ;
+        font-weight: 500;
+    }
+    .content {
+        padding: 40px 0 0 0;
+        margin: 70px 315px;
+        width: 75%;
+    }
+    .sidebar {
+        height: 100vh;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        background-color: #143980;
+        padding: 30px 0 0 0px;
+        width: 250px;
+        overflow-y: auto; 
+    }
+    .sidebar h3{
+        color: #f2f2f2 ;
+        font-weight:bold ;
+    }
+    .img img{
+        height: 250px;
+        width: 220px;
+        border-radius: 3px;
+        margin: 20px 20px 5px 15px;
+        
+    }
+    .text{
+        color: #f2f2f2;
+        text-align: center;
+    }
+    .nav hr{
+        margin: 10px 15px;
+        color: #f2f2f2;
+    }
+    .form-group{
+        padding-bottom: 10px;
+    }
+    #editor{
+        max-height: 300px;
+        height: 330px;
+        padding: 0;
+    }
+/* end Trang Thêm */

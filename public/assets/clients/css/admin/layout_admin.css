@@ -1,0 +1,84 @@
+/* Trang quản lý */
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .sidebar {
+        height: 100vh;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        background-color: #143980;
+        padding: 40px 0 0 30px;
+        width: 250px;
+        overflow-y: auto; 
+    }
+    .sidebar h3{
+        color: #f2f2f2 ;
+        font-weight:bold ;
+    }
+    .nav-item a{
+        color: #f2f2f2 ;
+        transition: font-size 0.7s;
+    }
+    .nav-item a:hover{
+        font-size: 20px ;
+        color: rgb(175, 234, 234);
+    }
+    .content {
+        padding: 40px 0 0 0;
+        margin: 50px 315px;
+        width: 75%;
+    }
+    .actions img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    .mb-3{
+        margin-bottom: 0rem!important;
+    }
+    .navbar-brand img{
+        height: 40px;
+        width: 50px;
+        margin-left:25px ;
+    }
+    .navbar-brand strong{
+        padding-bottom: 20px;
+        font-style: italic;
+        font-size: 25px;
+        color: #143980;
+        font-weight: 600;
+        text-shadow: 1px 3px 3px #114b91;
+    }
+    .title h3{
+        color: #143980 ;
+        font-weight: bold;
+    }
+    .dropdown-menu[data-bs-popper]{
+        left:-95px ;
+        width: 250px;
+    }
+    .dropdown{
+     right: 10px;
+    }
+    .us{
+     margin: 10px;
+    }
+    .us img{
+     border-radius: 50%;
+     border: 2px solid #143980;
+    }
+    .btn-outline-secondary{
+        background-color: #143980; color: #f2f2f2;
+    }
+    .btn-outline-secondary:hover{
+        background-color: #375691; color: #ffffff;
+    }
+    .btn-outline-secondary:focus{
+        background-color: #375691; color: #ffffff;
+    }
+    .table-head th{
+        color: #143980;
+    }
+/* end Trang quản lý */

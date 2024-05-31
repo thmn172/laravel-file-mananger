@@ -1,0 +1,89 @@
+/* {{--trang Thông báo --}} */
+    .news-all{
+        padding-top: 20px;
+    }
+    .main{
+        margin: 40px 0;
+    }
+    .card{
+        border: 0;
+    }
+    .card-title{
+        text-align: center;
+        font-size: 25px;
+        color: #143980;
+    }
+    .hr{
+        text-align: center;
+        background-color: #143980;
+        width: 155px;
+        height: 2px;
+        margin: auto;
+    }
+    .container{
+        height: 100%;
+    }
+    .item{
+        display: flex;
+        margin: 5px 0 0 40px;
+    }
+    .item i{
+        font-size: 60px;
+        color: rgb(219, 104, 104);
+        height: fit-content;
+        padding-top: 10px;
+    }
+    .item h4{
+        font-size:15px;
+        
+    }
+    .content a{
+        color: #2c343b;
+        font-weight: 500;
+    }
+    .content a:hover{
+        color: #358fdd;
+        font-weight: 500;
+    }
+    .content{
+        margin-left: 20px;
+        width: 100%;
+    }
+    .page-link{
+        color: #143980;
+    }
+    .page-link:hover{
+        color: #6492e8;
+    }
+    .pag{
+        width: fit-content;
+        padding: 0 0 0 30%;
+        
+    }
+    .sidebar-all{
+        background-color: #f6f6f6;
+        height: fit-content;
+        width: 30%;
+    }
+    .cm{
+        color: #333333;
+        font-size: 15px;
+        font-weight: 600;
+        transition: padding 0.8s;
+        font-family: system-ui;
+        
+    }
+    .cm:hover{
+        color: #D92727;
+        font-size: 15px;
+        font-weight: 600;
+        padding-left: 1rem;
+    }
+    ul{
+        padding-left: 0rem;
+        padding-top: 15px;
+    }
+    li{
+        padding-bottom: 10px;
+    }
+/* {{-- end trang thông báo --}} */

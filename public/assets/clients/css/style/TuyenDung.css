@@ -1,0 +1,59 @@
+/* Thông tin tuyển dụng */
+.title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    color: #143980;
+    margin-bottom: 20px;
+}
+.row{
+    padding: 0 69px;
+}
+.title p{
+   margin-bottom: 0.5rem;
+}
+.hr{
+    margin: 0 45%;
+    opacity: 4;
+    height: 2px;
+    background-color: #143980;
+}
+.news-list{
+    margin: 40px 0;
+}
+.content-list h4 a{
+    font-size: 17px;
+    font-weight: 700;
+    color: #333333;
+    font-family: monospace;
+    text-align: justify;
+}
+.time{
+    color: #929292;
+    font-size: 15px;
+}
+.decription{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.4;
+    color: #333333;
+    font-size: 15px;
+    font-family: monospace;
+    text-align: justify;
+}
+.page-link{
+    color: #143980;
+}
+.page-link:hover{
+    color: #6492e8;
+}
+.pag{
+    width: fit-content;
+    padding: 10px 43.56%;
+    
+}
+
+/* end Thông tin tuyển dụng */
